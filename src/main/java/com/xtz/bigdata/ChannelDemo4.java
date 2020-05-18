@@ -1,4 +1,4 @@
-package com.ppdai.bigdata;
+package com.xtz.bigdata;
 
 import java.io.FileInputStream;
 import java.nio.ByteBuffer;
