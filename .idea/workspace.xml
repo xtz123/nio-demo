@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb32c449-4a25-41c9-9121-a284c9d35f74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/NIOClient2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/NIOServer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/SocketClient3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/BufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/BufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/FlipDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/FlipDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/SocketServer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/SocketServer2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,37 +18,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/nio_demo$NIOServer2.ic" NAME="NIOServer2 Coverage Results" MODIFIED="1607151724035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.xtz.bigdata.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/FlipDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/FileLockDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/ChannelDemo1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/NIOServer2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="56">
+              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/NIOServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-49">
+              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/NIOClient2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="433" column="13" selection-start-line="433" selection-start-column="13" selection-end-line="433" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -58,8 +78,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>requestQueue</find>
       <find>run</find>
+      <find>ServerSocketChannel</find>
+      <find>server</find>
+      <find>requestQueue</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,6 +107,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/SocketServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/SocketClient2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/NIOClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/ChannelDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/BufferDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/ChannelDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/ChannelDemo3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/FlipDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/SocketServer2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/SocketClient3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/NIOClient2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xtz/bigdata/NIOServer2.java" />
       </list>
     </option>
   </component>
@@ -111,15 +142,17 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="nio-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="68" />
+    <option name="y" value="53" />
     <option name="width" value="1920" />
-    <option name="height" value="1032" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -128,9 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,16 +194,58 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nio-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="nio-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="nio-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nio-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nio-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nio-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589797835855" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607155333692" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -188,6 +260,7 @@
       <recent name="com.ppdai" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\workspace\nio-demo\src\main\java\com\xtz\bigdata" />
       <recent name="C:\workspace\nio-demo\src\main\java\com\ppdai\bigdata" />
     </key>
   </component>
@@ -203,13 +276,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SocketClient2">
+  <component name="RunManager" selected="Application.NIOClient2">
     <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ppdai.bigdata.NIOClient" />
+      <option name="MAIN_CLASS_NAME" value="com.xtz.bigdata.NIOClient" />
       <module name="nio-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ppdai.bigdata.*" />
+          <option name="PATTERN" value="com.xtz.bigdata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +290,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ppdai.bigdata.SocketClient" />
+    <configuration name="NIOClient2" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xtz.bigdata.NIOClient2" />
       <module name="nio-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ppdai.bigdata.*" />
+          <option name="PATTERN" value="com.xtz.bigdata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,12 +303,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ppdai.bigdata.SocketClient2" />
+    <configuration name="NIOServer" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xtz.bigdata.NIOServer" />
       <module name="nio-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ppdai.bigdata.*" />
+          <option name="PATTERN" value="com.xtz.bigdata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,12 +316,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ppdai.bigdata.SocketServer" />
+    <configuration name="NIOServer2" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xtz.bigdata.NIOServer2" />
       <module name="nio-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ppdai.bigdata.*" />
+          <option name="PATTERN" value="com.xtz.bigdata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,12 +329,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketServer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ppdai.bigdata.SocketServer2" />
+    <configuration name="SocketClient3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xtz.bigdata.SocketClient3" />
       <module name="nio-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ppdai.bigdata.*" />
+          <option name="PATTERN" value="com.xtz.bigdata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,19 +343,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SocketClient3" />
+      <item itemvalue="Application.NIOServer" />
       <item itemvalue="Application.NIOClient" />
-      <item itemvalue="Application.SocketServer" />
-      <item itemvalue="Application.SocketClient" />
-      <item itemvalue="Application.SocketServer2" />
-      <item itemvalue="Application.SocketClient2" />
+      <item itemvalue="Application.NIOServer2" />
+      <item itemvalue="Application.NIOClient2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SocketClient2" />
-        <item itemvalue="Application.SocketServer" />
-        <item itemvalue="Application.SocketServer2" />
-        <item itemvalue="Application.SocketClient" />
+        <item itemvalue="Application.NIOClient2" />
+        <item itemvalue="Application.NIOServer2" />
         <item itemvalue="Application.NIOClient" />
+        <item itemvalue="Application.NIOServer" />
+        <item itemvalue="Application.SocketClient3" />
       </list>
     </recent_temporary>
   </component>
@@ -324,93 +397,99 @@
       <workItem from="1587436433672" duration="1817000" />
       <workItem from="1587515840849" duration="981000" />
       <workItem from="1587521530127" duration="593000" />
+      <workItem from="1589797703784" duration="776000" />
+      <workItem from="1607134887078" duration="5779000" />
+      <workItem from="1607145806788" duration="6899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49959000" />
+    <option name="totallyTimeSpent" value="63413000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1032" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.18510158" visible="true" weight="0.19934994" />
-      <window_info id="Structure" order="1" sideWeight="0.81489843" side_tool="true" weight="0.23927039" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.18431373" visible="true" weight="0.23592493" />
+      <window_info id="Structure" order="1" sideWeight="0.8156863" side_tool="true" weight="0.2435724" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43115124" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2765237" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52549577" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30878186" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30414745" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4220963" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3299712" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.2247854" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.24396783" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.2533512" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.18510158" visible="true" weight="0.19152361" />
-      <window_info id="Structure" order="1" sideWeight="0.81489843" side_tool="true" weight="0.23927039" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.18431373" visible="true" weight="0.23592493" />
+      <window_info id="Structure" order="1" sideWeight="0.8156863" side_tool="true" weight="0.2435724" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43115124" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2765237" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52549577" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30878186" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4220963" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3299712" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.2247854" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.24396783" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.2533512" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/soft/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/FileChannelImpl.class</url>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/FileLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="146" column="14" selection-start-line="146" selection-start-column="14" selection-end-line="146" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/soft/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/FileLockImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -429,30 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/FileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1594">
-          <caret line="1010" column="29" selection-start-line="1010" selection-start-column="29" selection-end-line="1010" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/io/RandomAccessFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="281" column="45" selection-start-line="281" selection-start-column="45" selection-end-line="281" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/FileChannelImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/soft/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/FileDispatcherImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -460,23 +515,6 @@
           <folding>
             <element signature="e#557#558#0" expanded="true" />
             <element signature="e#591#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/ChannelDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/ChannelDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -510,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/ServerSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="107" column="51" selection-start-line="107" selection-start-column="51" selection-end-line="107" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/soft/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -528,13 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/SelectableChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4508">
-          <caret line="221" column="8" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -556,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/SelectionKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5566">
-          <caret line="266" column="28" selection-start-line="266" selection-start-column="28" selection-end-line="266" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/Selector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4117">
@@ -573,42 +590,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="713" column="22" selection-start-line="713" selection-start-column="22" selection-end-line="713" selection-end-column="22" />
-          <folding>
-            <element signature="e#19972#19973#0" expanded="true" />
-            <element signature="e#20018#20019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/BufferDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/BufferDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" selection-start-line="29" selection-end-line="36" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ppdai/bigdata/BufferTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xtz/bigdata/BufferTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="506" column="18" selection-start-line="506" selection-start-column="18" selection-end-line="506" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -630,62 +615,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/ChannelDemo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/SocketClient2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/SocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/SocketServer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/soft/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/SocketChannelImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/SelectorProviderImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/spi/SelectorProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="251" column="34" selection-start-line="251" selection-start-column="34" selection-end-line="251" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -696,54 +629,293 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/SocketClient.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/BufferDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="76">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/BufferDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/ChannelDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/NIOServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/ChannelDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="171">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="261" column="22" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="22" />
+          <folding>
+            <element signature="e#9208#9209#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+            <element signature="e#19972#19973#0" expanded="true" />
+            <element signature="e#20018#20019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/ChannelDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/NIOClient.java">
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/io/FileOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/FlipDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/FileLockDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="384">
+          <caret line="325" column="13" lean-forward="true" selection-start-line="325" selection-start-column="13" selection-end-line="325" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdai/bigdata/ChannelDemo1.java">
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/FileChannelImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="603">
+          <caret line="177" column="15" selection-start-line="177" selection-start-column="15" selection-end-line="177" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#42071#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/FileChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="384" column="24" selection-start-line="384" selection-start-column="24" selection-end-line="384" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/ChannelDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/io/RandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="202" column="50" selection-start-line="202" selection-start-column="46" selection-end-line="202" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/FileLockDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/FlipDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/SocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="19" selection-start-line="19" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="40" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/SocketClient2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/SocketServer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/SocketClient3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="356" column="56" selection-start-line="356" selection-start-column="49" selection-end-line="356" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#35716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1094">
+          <caret line="82" column="6" lean-forward="true" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+          <folding>
+            <element signature="e#2496#2497#0" expanded="true" />
+            <element signature="e#2561#2562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="355" column="24" selection-start-line="355" selection-start-column="24" selection-end-line="355" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/SelectionKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="240" column="28" selection-start-line="240" selection-start-column="28" selection-end-line="240" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/NIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="72" column="54" lean-forward="true" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/DefaultSelectorProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#361#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/nio/ch/SelectorProviderImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/spi/SelectorProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="240" column="40" selection-start-line="240" selection-start-column="40" selection-end-line="240" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#10760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/ServerSocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="107" column="45" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#10379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/nio/channels/SelectableChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="276" column="30" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="433" column="13" selection-start-line="433" selection-start-column="13" selection-end-line="433" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/NIOClient2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/NIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xtz/bigdata/NIOServer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

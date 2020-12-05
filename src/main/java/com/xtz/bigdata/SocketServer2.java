@@ -18,10 +18,7 @@ public class SocketServer2 {
         while (true) {
             Socket socket = serverSocket.accept();// 在这里会阻塞住，一直等待别人跟建立连接
             new Worker(socket).start();
-
         }
-
-
     }
 
     static class Worker extends Thread {

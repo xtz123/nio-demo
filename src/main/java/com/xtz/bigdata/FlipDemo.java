@@ -23,7 +23,12 @@ public class FlipDemo {
 
         buffer.put(bytes2);
 
+        System.out.println(buffer.position());
+
         buffer.flip();
+
+        System.out.println(buffer.position());
+        System.out.println(buffer.limit());
 
 
         byte[] bytes3 = new byte[3];
