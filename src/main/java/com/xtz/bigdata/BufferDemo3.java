@@ -4,11 +4,11 @@ import java.nio.ByteBuffer;
 
 /**
  * @ClassName FlipDemo
- * @Description flip()方法
+ * @Description flip()方法、rewind()方法
  * @Author xutengzhong
  * @Date 2020/2/29 2:54
  **/
-public class FlipDemo {
+public class BufferDemo3 {
 
     public static void main(String[] args) {
         ByteBuffer buffer = ByteBuffer.allocateDirect(100);
@@ -25,6 +25,10 @@ public class FlipDemo {
 
         System.out.println(buffer.position());
 
+        /**
+         * flip本质就是把limit设置为posttion，position=0,将mark舍弃
+         * 场景：一般用在先写入一段数据，然后打算从零开始读取
+         */
         buffer.flip();
 
         System.out.println(buffer.position());
@@ -33,10 +37,19 @@ public class FlipDemo {
 
         byte[] bytes3 = new byte[3];
         buffer.get(bytes3);
-
+//
         read(bytes3);
+//
+//        buffer.get();//此时执行这句会报错。flip是把limit设置为了本次写的position=3,并将position=0，所以不能读取超过的数据。
 
-        buffer.get();//此时执行这句会报错。flip是把limit设置为了本次写的position=3,并将position=0，所以不能读取超过的数据。
+
+        /**
+         * rewind是将position=0,将mark舍弃
+         * 场景：一般用在先读取一段数据然后需要重新再读取一次
+         */
+        buffer.rewind();
+        buffer.get(bytes3);
+        read(bytes3);
 
 
     }

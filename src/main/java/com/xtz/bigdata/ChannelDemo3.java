@@ -13,7 +13,7 @@ import java.nio.channels.FileChannel;
 public class ChannelDemo3 {
 
     public static void main(String[] args) throws Exception {
-        FileOutputStream out = new FileOutputStream("d:\\data\\a.txt");
+        FileOutputStream out = new FileOutputStream("/Users/xutengzhong/Desktop/workspace/data/a.txt");
         FileChannel channel = out.getChannel();
 
         for (int i = 0; i < 10; i++) {

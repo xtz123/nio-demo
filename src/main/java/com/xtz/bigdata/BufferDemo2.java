@@ -12,12 +12,12 @@ public class BufferDemo2 {
 
     public static void main(String[] args) {
         ByteBuffer buffer = ByteBuffer.allocateDirect(100);
-        System.out.println(buffer.position());
-        System.out.println(buffer.limit());
-        System.out.println(buffer.capacity());
+        System.out.println(buffer.position());//0
+        System.out.println(buffer.limit());//100
+        System.out.println(buffer.capacity());//100
 
         byte[] src = new byte[]{1, 2, 3, 4, 5};
-        buffer.put(src);
+        buffer.put(src);//插入数据以后，position的位置会向后移动
         System.out.println("****************");
         System.out.println(buffer.position());
         System.out.println(buffer.limit());
@@ -29,7 +29,7 @@ public class BufferDemo2 {
 
         System.out.print("dest=[");
         for (int i = 0; i < dest.length; i++) {
-            System.out.print(Byte.toString(dest[i]));
+            System.out.print(dest[i]);
             if (i < dest.length - 1) {
                 System.out.print(",");
             }
